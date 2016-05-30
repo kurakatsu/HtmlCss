@@ -1,0 +1,41 @@
+#wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    overflow: hiddun;
+}
+#wrapper #main-image {
+    width: 1200px;
+    height: 400px;
+}
+#wrapper #info {
+    width: 800px;
+    height: 300px;
+    margin: 20px 0 30px 30px;
+}
+#wrapper #info h2 {
+    width: 790px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    color: #0b303b;
+    background-color: #28a6cc;
+}
+#page-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #030304;
+}
+#page-top p {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    color: #92e5fe;
+    text-align: center;
+}
