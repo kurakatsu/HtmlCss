@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: #f7f7f7;
+    background-image: url("../img/background.jpg");
 }
 header {
     margin: 0 auto 0 auto;
     width: 100%;
     height: 100px;
-    background-color: #28a6cc;
+    background-color: #cccc00;
 }
 header div {
     width: 1200px;
@@ -22,7 +22,7 @@ header div h1 {
 }
 header nav {
     width: 100%;
-    background-color: #394548;
+    background-color: #ffffff;
 }
 header nav ul {
     width: 1200px;
@@ -31,11 +31,12 @@ header nav ul {
     /*最初の点を消す*/
     list-style: none;
     padding-left: 0;
-    background-color: #394548;
+    background-color: #ffffff;
+    line-height: 40px;
 }
 header nav ul li {
     float: left;
-    width: 25%;
+    width: 20%;
     height: 40px;
     color: #62b4cc;
     text-align: center;
