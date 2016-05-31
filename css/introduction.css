@@ -1,11 +1,12 @@
-.wrapper {
+#wrapper {
     width: 1200px;
     height: auto;
     margin: 0 auto 0 auto;
     overflow: hidden;
     background-color: #fdf9fc;
+    opacity: 0.9;
 }
-.wrapper div h2 {
+#wrapper div h2 {
     width: 1200px;
     height: 100px;
     font-size: 4em;
@@ -14,7 +15,7 @@
     line-height: 100px;
     /*background-color:#c4d278;*/
 }
-.wrapper #item {
+#wrapper #item {
     float: left;
     font-size: 1.4em;
     width: 160px;
@@ -23,14 +24,14 @@
     padding-top: 10px;
     line-height: 30px;
 }
-.wrapper .info {
+#wrapper .info {
     float:right;
     width: 800px;
     height: 300px;
     margin: 0 70px 0 0;
     color: #000000;
 }
-.wrapper .info p {
+#wrapper .info p {
     width: 700px;
     height: 40px;
     font-size: 2.5em;
@@ -38,15 +39,16 @@
     line-height: 40px;
     margin: 0 0 0 10px;
 }
-.wrapper .info .img {
+#wrapper .info .img {
     float: left;
     width: 100px;
     height: 100px;
 }
-.wrapper .info .value {
+#wrapper .info .value {
     float: right;
     width: 600px;
     height: 100px;
     margin: 0 40px 0 0;
+    line-height: 25px;
     padding-top: 5px;
 }
